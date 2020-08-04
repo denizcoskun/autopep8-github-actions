@@ -19,6 +19,6 @@ jobs:
         if: steps.autopep8.outputs.exit-code == 2
         run: |
           git config --global user.name 'Coskun Deniz'
-          git config --global user.email 'c.deniz@gmail.com'
+          git config --global user.email 'noreply@github.com'
           git commit -am "Automated autopep8 fixes"
           git push
